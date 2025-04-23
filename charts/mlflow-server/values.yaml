@@ -60,7 +60,7 @@ securityContext: {}
 objectStorage:
   objectBucketClaim:
     # -- Enable creation of s3 bucket with objectBucketClaim for artifact storage
-    enabled: true
+    enabled: false
     # -- StorageClassName for creation of the objectBucketClaim
     storageClassName: openshift-storage.noobaa.io
     # -- BucketClass name for the creation of the objectBucketClaim
